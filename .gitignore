@@ -1,0 +1,40 @@
+# ── Datos (no versionar archivos pesados) ─────────────────────────────────────
+*.csv
+*.xls
+*.xlsx
+*.zip
+*.parquet
+data/
+outputs/
+
+# ── Credenciales AWS y tokens ─────────────────────────────────────────────────
+.aws/
+*.pem
+credentials
+.env
+*token*
+*secret*
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── MacOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── VS Code ───────────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
