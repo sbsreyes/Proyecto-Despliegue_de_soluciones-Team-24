@@ -1,0 +1,12 @@
+fastapi>=0.103.0,<1.0.0
+uvicorn[standard]>=0.23.0,<1.0.0
+pydantic>=1.10.0,<3.0.0
+python-multipart>=0.0.6
+pandas>=2.0.0,<3.0.0
+numpy>=1.23.0,<3.0.0
+
+# Tests
+pytest>=7.4.0
+httpx>=0.24.0
+
+# NOTA: el modelo se instala desde packages/dengue_model-0.0.1-py3-none-any.whl
